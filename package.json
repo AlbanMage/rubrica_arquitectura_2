@@ -1,0 +1,23 @@
+{
+  "name": "under-caps",
+  "version": "1.0.0",
+  "description": "Under Caps - Tienda en línea de gorras (Proyecto final Arquitectura en la Nube: Node.js + Express + MongoDB Atlas + Azure App Service)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "express-rate-limit": "^7.4.1",
+    "helmet": "^8.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.8.1"
+  }
+}
